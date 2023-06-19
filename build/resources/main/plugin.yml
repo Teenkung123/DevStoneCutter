@@ -1,0 +1,8 @@
+name: DevStoneCutter
+version: '1.0-SNAPSHOT'
+main: com.teenkung.devstonecutter.DevStoneCutter
+api-version: 1.19
+depend: [ItemsAdder, NBTAPI]
+commands:
+  stonecutter:
+    permission: DevStoneCutter.admin

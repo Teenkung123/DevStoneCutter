@@ -1,0 +1,42 @@
+General:
+  Log_All_Recipes: false
+
+GUI:
+  Layout:
+    - "BBBBBBBBB"
+    - "BEBBBBBRB"
+    - "BBBBBBBBB"
+    - "AAAAAAAAA"
+    - "AAAAAAAAA"
+  Items:
+    B:
+      Material: WHITE_STAINED_GLASS_PANE
+    R:
+      Material: RED_STAINED_GLASS_PANE
+    E:
+      Material: AIR
+    A:
+      Material: GRAY_STAINED_GLASS_PANE
+  OutputSlot: R
+  InputSlot: E
+  SelectSlot: A
+
+
+Recipes:
+  '1':
+    Input:
+      Material: STONE
+    Result:
+      '1':
+        Material: COBBLESTONE
+        Amount: 1
+      'gravel':
+        Material: GRAVEL
+        Amount: 1
+  '2':
+    Input:
+      Material: GRAVEL
+    Result:
+      '1':
+        Material: SAND
+        Amount: 1
